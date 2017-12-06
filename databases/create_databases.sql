@@ -16,8 +16,8 @@ CREATE DATABASE tracker_backlog_test;
 CREATE DATABASE tracker_registration_test;
 CREATE DATABASE tracker_timesheets_test;
 
-DROP USER 'tracker'@'localhost' IF EXISTS 'tracker'@'localhost';
-FLUSH PRIVILEGES;
+-- DROP USER 'tracker'@'localhost' IF EXISTS 'tracker'@'localhost';
+-- FLUSH PRIVILEGES;
 CREATE USER IF NOT EXISTS 'tracker'@'localhost'
   IDENTIFIED BY '';
 GRANT ALL PRIVILEGES ON *.* TO 'tracker' @'localhost';
