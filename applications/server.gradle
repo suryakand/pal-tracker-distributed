@@ -13,6 +13,7 @@ dependencies {
 
     compile "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
 	compile "org.springframework.boot:spring-boot-starter-actuator:$springBootVersion"
+	compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
 	compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry:$springCloudServicesVersion"
 
     compile "com.zaxxer:HikariCP:2.3.7"
