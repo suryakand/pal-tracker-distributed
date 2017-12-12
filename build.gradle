@@ -5,7 +5,8 @@ buildscript {
         springBootVersion = "1.5.3.RELEASE"
         springVersion = "4.3.8.RELEASE"
 		springCloudDependenciesVersion = "Dalston.SR1"
-		springCloudServicesVersion = "1.4.1.RELEASE"        
+		springCloudServicesVersion = "1.4.1.RELEASE"
+		springCloudSsoVersion = "1.1.0.RELEASE"       
         mysqlVersion = "6.0.6"
     }
 
