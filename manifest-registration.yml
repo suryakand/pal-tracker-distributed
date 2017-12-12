@@ -6,9 +6,8 @@ applications:
   instances: 1
   env:
     GRANT_TYPE: client_credentials
-    SECURITY_USER_NAME: actuator
-    SECURITY_USER_PASSWORD: operations4red
   services:
+  - tracker-config-server
   - tracker-registration-database
   - tracker-service-registry
   - tracker-circuit-breaker-dashboard
