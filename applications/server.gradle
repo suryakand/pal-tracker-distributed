@@ -22,6 +22,11 @@ dependencies {
     compile "com.zaxxer:HikariCP:2.3.7"
     compile "mysql:mysql-connector-java:$mysqlVersion"
     compile "ch.qos.logback:logback-classic:1.1.11"
+	
+	// Zipkin dependencies
+	compile "org.springframework.cloud:spring-cloud-starter-sleuth"
+	compile "org.springframework.cloud:spring-cloud-sleuth-stream"
+	compile "org.springframework.cloud:spring-cloud-starter-stream-rabbit"
 
     testCompile project(":components:test-support")
 }
